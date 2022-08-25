@@ -1,0 +1,38 @@
+{
+    "name" : "seffeng/xml-helper",
+    "description" : "PHP extension xml helper",
+    "keywords" : [
+        "PHP",
+        "laravel",
+        "lumen",
+        "seffeng",
+        "xml",
+        "helpers"
+    ],
+    "license" : "MIT",
+    "homepage" : "https://github.com/seffeng/php-xml-helper",
+    "authors" : [{
+            "name" : "seffeng",
+            "email" : "save.zxf@gmail.com",
+            "homepage" : "https://github.com/seffeng"
+        }
+    ],
+    "require" : {
+        "php" : ">=7.1",
+        "seffeng/str-helper" : ">=0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=6.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Seffeng\\XmlHelper\\" : "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Seffeng\\XmlHelper\\Tests\\" : "tests/"
+        }
+    },
+    "minimum-stability" : "stable"
+}
